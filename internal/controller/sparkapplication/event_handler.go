@@ -27,10 +27,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/event"
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 
-	"github.com/kubeflow/spark-operator/api/v1beta2"
-	"github.com/kubeflow/spark-operator/internal/metrics"
-	"github.com/kubeflow/spark-operator/pkg/common"
-	"github.com/kubeflow/spark-operator/pkg/util"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/internal/metrics"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/pkg/util"
 )
 
 // SparkPodEventHandler watches Spark pods and update the SparkApplication objects accordingly.

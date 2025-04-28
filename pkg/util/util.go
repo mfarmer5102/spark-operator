@@ -25,7 +25,7 @@ import (
 	"golang.org/x/mod/semver"
 	"sigs.k8s.io/yaml"
 
-	"github.com/kubeflow/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
 )
 
 var unitMap = map[string]string{

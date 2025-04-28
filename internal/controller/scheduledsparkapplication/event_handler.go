@@ -25,7 +25,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/event"
 	"sigs.k8s.io/controller-runtime/pkg/handler"
 
-	"github.com/kubeflow/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
 )
 
 // EventHandler handles events for ScheduledSparkApplication.

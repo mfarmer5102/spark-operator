@@ -29,9 +29,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	"github.com/kubeflow/spark-operator/api/v1beta2"
-	"github.com/kubeflow/spark-operator/pkg/common"
-	"github.com/kubeflow/spark-operator/pkg/util"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/pkg/util"
 )
 
 const (

@@ -33,9 +33,9 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/yaml"
 
-	"github.com/kubeflow/spark-operator/api/v1beta2"
-	"github.com/kubeflow/spark-operator/pkg/common"
-	"github.com/kubeflow/spark-operator/pkg/util"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/pkg/util"
 )
 
 var _ = Describe("Example SparkApplication", func() {

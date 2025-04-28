@@ -21,8 +21,8 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/kubeflow/spark-operator/api/v1beta2"
-	"github.com/kubeflow/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
 )
 
 func isJavaApp(appType v1beta2.SparkApplicationType) bool {

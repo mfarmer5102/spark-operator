@@ -21,7 +21,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kubeflow/spark-operator/pkg/util"
+	"github.com/mfarmer5102/spark-operator/pkg/util"
 )
 
 func TestCpuRequest(t *testing.T) {

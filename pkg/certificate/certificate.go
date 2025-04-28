@@ -34,7 +34,7 @@ import (
 	"k8s.io/client-go/util/cert"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/kubeflow/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
 )
 
 const (

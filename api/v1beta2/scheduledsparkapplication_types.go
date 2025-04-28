@@ -82,7 +82,7 @@ type ScheduledSparkApplicationStatus struct {
 }
 
 // +kubebuilder:object:root=true
-// +kubebuilder:metadata:annotations="api-approved.kubernetes.io=https://github.com/kubeflow/spark-operator/pull/1298"
+// +kubebuilder:metadata:annotations="api-approved.kubernetes.io=https://github.com/mfarmer5102/spark-operator/pull/1298"
 // +kubebuilder:resource:scope=Namespaced,shortName=scheduledsparkapp,singular=scheduledsparkapplication
 // +kubebuilder:subresource:status
 // +kubebuilder:printcolumn:JSONPath=.spec.schedule,name=Schedule,type=string

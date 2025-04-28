@@ -48,15 +48,15 @@ import (
 	metricsserver "sigs.k8s.io/controller-runtime/pkg/metrics/server"
 	ctrlwebhook "sigs.k8s.io/controller-runtime/pkg/webhook"
 
-	sparkoperator "github.com/kubeflow/spark-operator"
-	"github.com/kubeflow/spark-operator/api/v1beta1"
-	"github.com/kubeflow/spark-operator/api/v1beta2"
-	"github.com/kubeflow/spark-operator/internal/controller/mutatingwebhookconfiguration"
-	"github.com/kubeflow/spark-operator/internal/controller/validatingwebhookconfiguration"
-	"github.com/kubeflow/spark-operator/internal/webhook"
-	"github.com/kubeflow/spark-operator/pkg/certificate"
-	"github.com/kubeflow/spark-operator/pkg/common"
-	"github.com/kubeflow/spark-operator/pkg/util"
+	sparkoperator "github.com/mfarmer5102/spark-operator"
+	"github.com/mfarmer5102/spark-operator/api/v1beta1"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/internal/controller/mutatingwebhookconfiguration"
+	"github.com/mfarmer5102/spark-operator/internal/controller/validatingwebhookconfiguration"
+	"github.com/mfarmer5102/spark-operator/internal/webhook"
+	"github.com/mfarmer5102/spark-operator/pkg/certificate"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/pkg/util"
 	// +kubebuilder:scaffold:imports
 )
 

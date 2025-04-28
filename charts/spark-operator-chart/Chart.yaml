@@ -28,7 +28,7 @@ keywords:
 - apache spark
 - big data
 
-home: https://github.com/kubeflow/spark-operator
+home: https://github.com/mfarmer5102/spark-operator
 
 maintainers:
 - name: yuchaoran2011

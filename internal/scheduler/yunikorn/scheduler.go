@@ -23,10 +23,10 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/kubeflow/spark-operator/api/v1beta2"
-	"github.com/kubeflow/spark-operator/internal/scheduler"
-	"github.com/kubeflow/spark-operator/internal/scheduler/yunikorn/resourceusage"
-	"github.com/kubeflow/spark-operator/pkg/util"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/internal/scheduler"
+	"github.com/mfarmer5102/spark-operator/internal/scheduler/yunikorn/resourceusage"
+	"github.com/mfarmer5102/spark-operator/pkg/util"
 )
 
 const (

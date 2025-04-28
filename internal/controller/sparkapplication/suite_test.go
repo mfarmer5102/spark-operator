@@ -32,8 +32,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	"github.com/kubeflow/spark-operator/api/v1beta1"
-	"github.com/kubeflow/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/api/v1beta1"
+	"github.com/mfarmer5102/spark-operator/api/v1beta2"
 	// +kubebuilder:scaffold:imports
 )
 

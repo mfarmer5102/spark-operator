@@ -28,7 +28,7 @@ import (
 
 	"k8s.io/client-go/util/cert"
 
-	"github.com/kubeflow/spark-operator/pkg/common"
+	"github.com/mfarmer5102/spark-operator/pkg/common"
 )
 
 func NewPrivateKey() (*rsa.PrivateKey, error) {

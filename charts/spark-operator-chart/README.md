@@ -4,11 +4,11 @@
 
 A Helm chart for Spark on Kubernetes operator.
 
-**Homepage:** <https://github.com/kubeflow/spark-operator>
+**Homepage:** <https://github.com/mfarmer5102/spark-operator>
 
 ## Introduction
 
-This chart bootstraps a [Kubernetes Operator for Apache Spark](https://github.com/kubeflow/spark-operator) deployment using the [Helm](https://helm.sh) package manager.
+This chart bootstraps a [Kubernetes Operator for Apache Spark](https://github.com/mfarmer5102/spark-operator) deployment using the [Helm](https://helm.sh) package manager.
 
 ## Prerequisites
 

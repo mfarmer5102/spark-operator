@@ -21,9 +21,9 @@ limitations under the License.
 package sparkoperator
 
 import (
-	internalinterfaces "github.com/kubeflow/spark-operator/pkg/client/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/kubeflow/spark-operator/pkg/client/informers/externalversions/sparkoperator.k8s.io/v1beta1"
-	v1beta2 "github.com/kubeflow/spark-operator/pkg/client/informers/externalversions/sparkoperator.k8s.io/v1beta2"
+	internalinterfaces "github.com/mfarmer5102/spark-operator/pkg/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/mfarmer5102/spark-operator/pkg/client/informers/externalversions/sparkoperator.k8s.io/v1beta1"
+	v1beta2 "github.com/mfarmer5102/spark-operator/pkg/client/informers/externalversions/sparkoperator.k8s.io/v1beta2"
 )
 
 // Interface provides access to each of this group's versions.
