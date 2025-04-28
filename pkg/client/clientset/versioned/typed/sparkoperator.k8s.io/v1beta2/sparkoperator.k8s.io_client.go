@@ -21,8 +21,8 @@ limitations under the License.
 package v1beta2
 
 import (
-	v1beta2 "github.com/kubeflow/spark-operator/api/v1beta2"
-	"github.com/kubeflow/spark-operator/pkg/client/clientset/versioned/scheme"
+	v1beta2 "github.com/mfarmer5102/spark-operator/api/v1beta2"
+	"github.com/mfarmer5102/spark-operator/pkg/client/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 
