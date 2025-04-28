@@ -24,8 +24,8 @@ import (
 	"context"
 	"time"
 
-	v1beta2 "github.com/kubeflow/spark-operator/api/v1beta2"
-	scheme "github.com/kubeflow/spark-operator/pkg/client/clientset/versioned/scheme"
+	v1beta2 "github.com/mfarmer5102/spark-operator/api/v1beta2"
+	scheme "github.com/mfarmer5102/spark-operator/pkg/client/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
